@@ -2,11 +2,6 @@ import streamlit as st
 
 
 def crystal():
-    """
-            @author: 
-
-            如有引用请注明原作者
-    """
     pages = st.sidebar.radio('choose a page',
                              ('晶体结构的周期性和点阵',
                               '晶体结构的对称性',

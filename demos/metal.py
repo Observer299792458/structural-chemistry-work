@@ -2,11 +2,6 @@ import streamlit as st
 
 
 def metal():
-    """
-            @author: 
-
-            如有引用请注明原作者
-    """
     pages = st.sidebar.radio('choose a page',
                              ('金属键和金属的一般性质',
                               '等径圆球的密堆积',

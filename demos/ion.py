@@ -2,14 +2,8 @@ import streamlit as st
 
 
 def ion():
-    """
-            @author: Tang Miaojiong & Qian Guxin & Li Xinquan
-
-            如有引用请注明原作者
-    """
     pages = st.sidebar.radio('choose a page',
-                             (
-                              '离子键和晶格能',
+                             ('离子键和晶格能',
                               '离子半径',
                               '离子化合物的晶体结构',
                               '硅酸盐的结构化学 '
